@@ -1,0 +1,36 @@
+# Environment Variables
+.env
+*.env
+.env.local
+.env.production
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build outputs
+dist/
+build/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Hardhat
+cache/
+artifacts/
+typechain/
+typechain-types/
+coverage/
+coverage.json
+
+# Misc
+*.tmp
+*.temp
